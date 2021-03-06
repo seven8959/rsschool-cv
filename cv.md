@@ -1,4 +1,4 @@
-## SERHII OLSHANSKYI
+# SERHII OLSHANSKYI
 
 ## CONTACTS
 
@@ -24,4 +24,61 @@ After Front end courses at UKRAINIAN IT_SCHOOL I decided that I also need to gai
 
 It is really fascinating, when you get a great result made of code. I consider it as an art. 
 I am not going to stop and I plan to study further, to develop my skills and reach my goals.
+
+## SKILLS
+
+* *Layout*
+  * HTML-5
+  * CSS-3
+  * LESS
+  * Responce
+  * Bootstrap
+* *Prgramming*  
+  * JavaScript
+  * ES5
+  * ES6
+  * DOM
+  * jQuery
+  * TypeScript 
+* *Server*
+  * Node.js
+  * Express.js
+  * MongoDB
+  * AJAX
+* *Other*
+  * Git
+  * Webpack   
+
+## CODE EXAMPLES
+
+***CSS***
+
+    .baner .scroll_arrow:after {
+      content: "";
+      position: absolute;
+      left: 35%;
+      top: 25%;
+      width: 13px;
+      height: 13px;
+      border-top: 2px solid #ffffff;
+      border-left: 2px solid #ffffff;
+      transform: rotate(225deg);
+      transition: border-color 0.6s linear;
+      -webkit-animation: arrow 1.5s linear infinite;
+      animation: arrow 1.5s linear infinite;
+    }
+    
+***Parallax in `js`***
+
+```
+window.addEventListener('scroll', function () {
+    let st = window.scrollY;
+
+    let elBaner = document.querySelector('.baner_text');
+    let elArrow = document.querySelector('.scroll_arrow');
+
+    elBaner.style.transform = `translateY(${st / 3}%)`;
+    elArrow.style.transform = `translateY(${st / 4}%)`;
+});
+```
 
