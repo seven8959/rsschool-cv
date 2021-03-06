@@ -82,3 +82,24 @@ window.addEventListener('scroll', function () {
 });
 ```
 
+## WORK EXPERIENCE
+
+*UKRAINIAN IT SCHOOL* Front-End-Basic courses\
+July 2020\
+Projects
+> <https://seven8959.github.io/index.html>\
+<https://seven8959.github.io/Agency/Agency%20Website/index.html>\
+<https://seven8959.github.io/cardio/index.html>
+
+*HILLEL* Front-End-Pro courses\
+January 2021\
+Project - Weather App
+> <https://github.com/seven8959/hillel>
+
+## EDUCATION
+
+*Kharkiv national pedagogical university named after Grigory Savich Skovoroda*\
+2010 - 2015\
+Specialty - Lawyer 
+
+**English level - A1**
