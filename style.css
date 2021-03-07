@@ -19,7 +19,7 @@ li {
 }
 
 .wrapper {
-	width: 1440px;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -95,11 +95,25 @@ span {
 }
 
 footer {
-	text-align: right;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rs-logo {
+	width: 188px;
+	height: 70px;
+}
+
+.year {
+	color: white;
+	align-self: flex-end;
+	margin-bottom: 10px;
 }
 
 .contacts-footer {
 	padding: 20px 0;
+	text-align: right;
 }
 
 .contacts-footer li {
@@ -110,5 +124,3 @@ footer {
 .contacts-footer li a {
 	color: white;
 }
-
-		
